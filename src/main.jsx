@@ -17,7 +17,7 @@ render(
             index
             element={
               <main style={{ padding: '1rem' }}>
-                <p>Select an invoice yes we can</p>
+                <p>Select an invoice</p>
               </main>
             }
           />

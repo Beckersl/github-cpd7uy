@@ -13,10 +13,7 @@ export default function Invoices() {
           padding: '1rem',
         }}
       >
-        <p>Bonjour</p>
-        <label htmlFor="">Invoices from</label>
         <input
-          type="text"
           value={searchParams.get('filter') || ''}
           onChange={(event) => {
             let filter = event.target.value;
